@@ -1,0 +1,17 @@
+---
+layout: default
+title: Visual Code - Working Title
+---
+<div id="home">
+	<h1>{{ page.title }}</h1>
+	<p>A project with the goal of creating a visual programming language that is intuitive, and easy to transition to. This is the blog detailing my progress.</p>
+	<h2>Posts</h2>
+	<ul>
+		{% for post in site.posts %}
+			<li>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+				{{ post.excerpt }}
+			</li>
+		{% endfor %}
+	</ul>
+</div>

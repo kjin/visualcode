@@ -1,0 +1,4 @@
+# the generated site
+_site/*
+# metadata
+.jekyll-metadata
