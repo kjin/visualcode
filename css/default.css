@@ -7,3 +7,13 @@ body {
   padding: 40px 15px;
   text-align: left;
 }
+.post {
+  padding: 40px 15px 0px;
+  text-align: left;
+}
+p.subtitle {
+  font-style: italic;
+  font-size: 80%;
+  color: #999999;
+  background-color: #ffffff
+}
